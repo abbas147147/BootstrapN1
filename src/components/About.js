@@ -15,7 +15,7 @@ const About = () => {
           <Col lg={6} className="text-center text-lg-end">
             <div className={styles.content}>
               <h3 className="text-primary ">لورم ایپسوم متن ساختگی</h3>
-              <h2 className="fw-bold fs-4 lh-base ">
+              <h2 className="fw-bold fs-3 h2 lh-base ">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت.
               </h2>
               <p className="text-muted lh-base">

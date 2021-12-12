@@ -10,7 +10,7 @@ import introPIC from "../images/intro/intro-img.png";
 const Intro = () => {
   return (
     <div className={styles.container}>
-      <Container className="g3">
+      <Container className="mt-3 mt-lg-0">
         <Row className="justify-content-center align-items-center my-3">
           <Col lg={6} className="text-center text-lg-end">
             <h3 className="text-primary lh-lg">

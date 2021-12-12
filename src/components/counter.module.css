@@ -1,0 +1,20 @@
+.blue {
+  color: rgb(46, 46, 255);
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.orange {
+  color: rgb(253, 134, 22);
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.green {
+  color: rgb(0, 179, 15);
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.red {
+  color: rgb(109, 0, 0);
+  font-size: 2rem;
+  margin-left: 10px;
+}
