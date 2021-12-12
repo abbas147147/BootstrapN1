@@ -12,8 +12,8 @@ const Intro = () => {
     <div className={styles.container}>
       <Container className="g3">
         <Row className="justify-content-center align-items-center my-3">
-          <Col lg={6}>
-            <h3 className="text-primary">
+          <Col lg={6} className="text-center text-lg-end">
+            <h3 className="text-primary lh-lg">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.
             </h3>
             <p className="text-muted my-5">
@@ -21,7 +21,7 @@ const Intro = () => {
             </p>
             <Button>لورم ایپسوم</Button>
           </Col>
-          <Col lg={6} className="mt-3">
+          <Col lg={6} className="mt-5 mt-lg-0">
             <img className="img-fluid" src={introPIC} alt="intro" />
           </Col>
         </Row>
