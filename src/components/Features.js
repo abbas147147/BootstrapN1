@@ -20,7 +20,7 @@ import styles from "./features.module.css";
 const Features = () => {
   return (
     <div>
-      <Container>
+      <Container className="my-5">
         <Row className="my-5">
           <Col>
             <h2 className="h3 text-primary">
@@ -33,7 +33,7 @@ const Features = () => {
             <img src={featuresIMG} alt="features" className="img-fluid" />
           </Col>
           <Col lg={8}>
-            <Row className="g-3">
+            <Row className="g-3 g-lg-5">
               <Col md={6}>
                 <div className="p-3 shadow rounded">
                   <BsInstagram className={styles.icon} />

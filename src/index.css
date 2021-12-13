@@ -2,6 +2,55 @@
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 .navbarMain {
-  background-color: rgb(221, 235, 255) !important;
+  background-color: rgb(230, 230, 230) !important;
+}
+/* sevices */
+
+.blue {
+  border-bottom: 3px solid rgb(100, 100, 255);
+}
+.blue:hover {
+  background-color: rgb(100, 100, 255);
+  color: #fff;
+}
+.blue:hover .link-servic {
+  background-color: rgb(100, 100, 255);
+  color: #fff;
+}
+.yellow {
+  border-bottom: 3px solid rgb(110, 109, 0);
+}
+.yellow:hover {
+  background-color: rgb(110, 109, 0);
+  color: #fff;
+}
+.yellow:hover .link-servic {
+  background-color: rgb(110, 109, 0);
+  color: #fff;
+}
+.green {
+  border-bottom: 3px solid rgb(0, 143, 19);
+}
+.green:hover {
+  background-color: rgb(0, 143, 19);
+  color: #fff;
+}
+.green:hover .link-servic {
+  background-color: rgb(0, 143, 19);
+  color: #fff;
+}
+.yLink {
+  color: rgb(110, 109, 0);
+}
+.gLink {
+  color: rgb(0, 143, 19);
+}
+
+/* pricin */
+.pricing:hover {
+  box-shadow: 2px 2px 15px rgb(107, 79, 79) !important;
 }

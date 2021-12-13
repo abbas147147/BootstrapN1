@@ -7,6 +7,8 @@ import About from "./components/About";
 import Values from "./components/Values";
 import Counter from "./components/Counter";
 import Features from "./components/Features";
+import Services from "./components/Services";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Values />
       <Counter />
       <Features />
+      <Services />
+      <Pricing />
     </div>
   );
 };
