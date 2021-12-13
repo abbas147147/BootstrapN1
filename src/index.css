@@ -54,3 +54,9 @@ a {
 .pricing:hover {
   box-shadow: 2px 2px 15px rgb(107, 79, 79) !important;
 }
+/* footer */
+.hr {
+  height: 5px !important;
+  color: blue;
+  width: 70%;
+}
